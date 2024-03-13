@@ -21,7 +21,7 @@ app.use('/servertest', (req, res) => {
     res.send(htmlResponse);
 });
 
-// //////////////////////////////////////////////////////// //
+// ///////////////////////////////////////////////////////// //
 // Define a whitelist of allowed origins for CORS
 const whitelist = [
     'http://localhost:8000',
